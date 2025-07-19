@@ -4,7 +4,7 @@ import tornado.web
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("Hello,sami\n")
+        self.write("Congrats sami, you have created container using CI-CD\n")
         print(self.request)
 
 
